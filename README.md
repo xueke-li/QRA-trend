@@ -1,4 +1,4 @@
-# Planetary Wave Resonance 
+Planetary Wave Resonance 
 ==============================================
 Repository including the code needed to reproduce the results present in <a href="https://www.pnas.org/doi/***">Li et al., Increased frequency of planetary wave resonance events over the past half-century </a>, PNAS, Volume ***, Issue **, 2025.
 
