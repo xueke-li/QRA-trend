@@ -18,7 +18,7 @@ The following data are used to reproduce Fig. 1:
 * `QRA_freq_1950-2024.csv` &rarr; Annual counts of quasi-resonant amplification (QRA) of planetary wave events during boreal summer (JJA), 1950–2024.
 * `GISTEMP_latband_2017_1880-2016_jja_lat-25n-75n_QRAindex.nc` &rarr; QRA fingerprint series calculated from GISTEMP surface temperature observations, 1880-2016 (Mann et al. 2017, 2018).
 * `HadCRUT_latband_2017_1850-2016_jja_lat-25n-75_QRAindex.nc` &rarr; QRA fingerprint series calculated from HadCRUT4 surface temperature observations, 1850-2016 (Mann et al. 2017, 2018).
-* `HadCRUT_krig_latband_2017_1850-2016_jja_lat-25n-75n_QRAindex.nc` &rarr; QRA fingerprint series calculated from Cowtan and Way surface temperature observations, 1850-2016 (Mann et al. 2017; Mann et al. 2018).
+* `HadCRUT_krig_latband_2017_1850-2016_jja_lat-25n-75n_QRAindex.nc` &rarr; QRA fingerprint series calculated from Cowtan and Way surface temperature observations, 1850-2016 (Mann et al. 2017, 2018).
 
 The following data are used to reproduce Fig. 2:
 * `era5_monthly_1.5deg_v300_1950_2024_JJAmean_37.5N-57.5N_delplev-dct.nc` &rarr; Wave amplitudes calculated from monthly ERA5 data (37.5°N to 57.5°N; 1950-2024) by applying a zonal fast Fourier transformation (FFT) to JJA-averaged 300 hPa meridional wind fields. 
