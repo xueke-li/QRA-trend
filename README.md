@@ -1,17 +1,26 @@
 Planetary Wave Resonance 
 ==============================================
-Repository including the code needed to reproduce the results present in <a href="https://www.pnas.org/doi/***">Li et al., Increased frequency of planetary wave resonance events over the past half-century </a>, PNAS, Volume ***, Issue **, 2025.
+Repository including the code needed to reproduce the results present in <a href="https://www.pnas.org/doi/10.1073/pnas.2504482122">Li et al., Increased frequency of planetary wave resonance events over the past half-century </a>, PNAS, Volume 122, Issue 00, 2025.
 
 Related Publication
 -------------------
-X. Li, M. E. Mann, M. F. Wehner, S. Christiansen,  Increased frequency of planetary wave resonance events over the past half-century, Proc. Natl. Acad. Sci. U.S.A. 122 (15) e2413503122, <a href="https://doi.org/10.1073/pnas.2413503122">https://doi.org/10.1073/pnas.2413503122</a> (2025).
+X. Li, M. E. Mann, M. F. Wehner, S. Christiansen,  Increased frequency of planetary wave resonance events over the past half-century, Proc. Natl. Acad. Sci. U.S.A. 122 (00) e2413503122, <a href="https://doi.org/10.1073/pnas.2504482122">https://doi.org/10.1073/pnas.2504482122</a> (2025).
+M. E. Mann, S. Rahmstorf, K. Kornhuber, B. A. Steinman, S. K. Miller, S. Petri, D. Coumou, Projected changes in persistent extreme summer weather events: The role of quasi-resonant amplification. Sci. Adv. 4(10) eaat3272, <a href="https://doi.org/10.1126/sciadv.aat3272">https://doi.org/10.1126/sciadv.aat3272</a> (2018).
+M. E. Mann, S. Rahmstorf, K. Kornhuber, B. A. Steinman, S. K. Miller, D. Coumou, Influence of anthropogenic climate change on planetary wave resonance and extreme weather events. Sci Rep 7(1), 45242, <a href="https://doi.org/10.1038/srep45242">https://doi.org/10.1038/srep45242</a> (2017). 
 
 
 Files description
 -----------------
-* `QRA_freq_1950-2024.csv` &rarr; Counts of quasi-resonant amplification (QRA) of planetary waves
-* `CanESM5_CanOE_grid` &rarr; Description of the grid used in this work (Grid from CanESM5-CanOE simulation)
-* `transferring_env.yml` &rarr; YAML file needed to create the conda environment to reproduce the experiments and the figures
+The following data are used to reproduce Fig. 1:
+* `QRA_freq_1950-2024.csv` &rarr; Counts of quasi-resonant amplification (QRA) of planetary waves during boreal summer (JJA), 1950–2024
+* `GISTEMP_latband_2017_1880-2016_jja_lat-25n-75n_QRAindex.nc` &rarr; QRA fingerprint series calculated from GISTEMP surface temperature observations, 1880-2016 
+* `HadCRUT_latband_2017_1850-2016_jja_lat-25n-75_QRAindex.nc` &rarr; QRA fingerprint series calculated from HadCRUT4 surface temperature observations, 1850-2016 
+* `HadCRUT_krig_latband_2017_1850-2016_jja_lat-25n-75n_QRAindex.nc` &rarr; QRA fingerprint series calculated from Cowtan and Way surface temperature observations, 1850-2016
+
+The following data are used to reproduce Fig. 2:
+* `era5_monthly_1.5deg_v300_1950_2024_JJAmean_37.5N-57.5N_delplev-dct.nc` &rarr; Wave amplitudes calculated from monthly ERA5 data by applying a zonal fast Fourier transformation (FFT) to JJA averaged 300 hPa meridional wind fields (37.5°N to 57.5°N; 1950-2024)
+
+The following data are used to reproduce Fig. 3:
 * `erf_estimates_with_aerosols_Zebedee_Nichols.csv` &rarr; Dataset of Effective Radiative Forcing values for each year
 * `lib.py` &rarr; Routines called in several scripts
 * `variables.py` &rarr; Definition of variables used in the scripts
