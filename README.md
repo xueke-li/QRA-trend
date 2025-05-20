@@ -1,6 +1,6 @@
 Planetary Wave Resonance 
 ==============================================
-Repository including the code needed to reproduce the results present in <a href="https://www.pnas.org/doi/10.1073/pnas.2504482122">Li et al., Increased frequency of planetary wave resonance events over the past half-century</a>, PNAS, Volume 122, Issue 00, 2025.
+This repository contains the data and code necessary to reproduce the results presented in: <a href="https://www.pnas.org/doi/10.1073/pnas.2504482122">Li et al. (2025), Increased frequency of planetary wave resonance events over the past half-century</a>, Proceedings of the National Academy of Sciences, 122(00), e2413503122.
 
 Related Publication
 -------------------
@@ -15,23 +15,23 @@ Mann, M. E., S. Rahmstorf, K. Kornhuber, B. A. Steinman, S. K. Miller, and D. Co
 Files description
 -----------------
 The following data are used to reproduce Fig. 1:
-* `QRA_freq_1950-2024.csv` &rarr; Counts of quasi-resonant amplification (QRA) of planetary waves during boreal summer (JJA), 1950–2024
-* `GISTEMP_latband_2017_1880-2016_jja_lat-25n-75n_QRAindex.nc` &rarr; QRA fingerprint series calculated from GISTEMP surface temperature observations, 1880-2016 (Mann et al. 2017; Mann et al. 2018)
-* `HadCRUT_latband_2017_1850-2016_jja_lat-25n-75_QRAindex.nc` &rarr; QRA fingerprint series calculated from HadCRUT4 surface temperature observations, 1850-2016 (Mann et al. 2017; Mann et al. 2018)
-* `HadCRUT_krig_latband_2017_1850-2016_jja_lat-25n-75n_QRAindex.nc` &rarr; QRA fingerprint series calculated from Cowtan and Way surface temperature observations, 1850-2016 (Mann et al. 2017; Mann et al. 2018)
+* `QRA_freq_1950-2024.csv` &rarr; Annual counts of quasi-resonant amplification (QRA) of planetary wave events during boreal summer (JJA), 1950–2024.
+* `GISTEMP_latband_2017_1880-2016_jja_lat-25n-75n_QRAindex.nc` &rarr; QRA fingerprint series calculated from GISTEMP surface temperature observations, 1880-2016 (Mann et al. 2017, 2018).
+* `HadCRUT_latband_2017_1850-2016_jja_lat-25n-75_QRAindex.nc` &rarr; QRA fingerprint series calculated from HadCRUT4 surface temperature observations, 1850-2016 (Mann et al. 2017, 2018).
+* `HadCRUT_krig_latband_2017_1850-2016_jja_lat-25n-75n_QRAindex.nc` &rarr; QRA fingerprint series calculated from Cowtan and Way surface temperature observations, 1850-2016 (Mann et al. 2017; Mann et al. 2018).
 
 The following data are used to reproduce Fig. 2:
-* `era5_monthly_1.5deg_v300_1950_2024_JJAmean_37.5N-57.5N_delplev-dct.nc` &rarr; Wave amplitudes calculated from monthly ERA5 data by applying a zonal fast Fourier transformation (FFT) to JJA averaged 300 hPa meridional wind fields (37.5°N to 57.5°N; 1950-2024)
+* `era5_monthly_1.5deg_v300_1950_2024_JJAmean_37.5N-57.5N_delplev-dct.nc` &rarr; Wave amplitudes calculated from monthly ERA5 data (37.5°N to 57.5°N; 1950-2024) by applying a zonal fast Fourier transformation (FFT) to JJA-averaged 300 hPa meridional wind fields. 
 
 The following data are used to reproduce Fig. 3:
-* `T_QRA_JJA_NH_ERA_2p5dg_lat-25n-75n_anom.nc` &rarr; QRA zonal fingerprint (Mann et al. 2017; Mann et al. 2018)
-* `RC_slope_ERA5-based QRA frequency_ERA5t2m.nc` &rarr; slope from linear regression between ERA5 surface temperature anomalies and the ERA5-based QRA count series
-* `RC_pval_ERA5-based QRA frequency_ERA5t2m.nc` &rarr; p value from linear regression between ERA5 surface temperature anomalies and the ERA5-based QRA count series
-* `RC_slope_ERA5-based QRA frequency_GISTEMP.nc` &rarr; slope from linear regression between GISS surface temperature anomalies and the ERA5-based QRA count series
-* `RC_pval_ERA5-based QRA frequency_GISTEMP.nc` &rarr; p value from linear regression between GISS surface temperature anomalies and the ERA5-based QRA count series
-* `RC_slope_GISS-based QRA fingerprint_GISTEMP.nc` &rarr; slope from linear regression between GISS surface temperature anomalies and the GISTEMP QRA fingerprint series 
-* `RC_pval_GISS-based QRA fingerprint_GISTEMP.nc` &rarr; p value from linear regression between GISS surface temperature anomalies and the GISTEMP QRA fingerprint series 
-* `WB_Land_10m.shp` &rarr; World Bank official boundaries downloaded from https://datacatalog.worldbank.org/search/dataset/0038272
+* `T_QRA_JJA_NH_ERA_2p5dg_lat-25n-75n_anom.nc` &rarr; QRA zonal fingerprint (Mann et al. 2017, 2018)
+* `RC_slope_ERA5-based QRA frequency_ERA5t2m.nc` &rarr; Regression slope of ERA5-based QRA count series against ERA5 surface temperature anomalies.
+* `RC_pval_ERA5-based QRA frequency_ERA5t2m.nc` &rarr; Corresponding p-values for the above regression.
+* `RC_slope_ERA5-based QRA frequency_GISTEMP.nc` &rarr; Regression slope of ERA5-based QRA count series against GISTEMP anomalies.
+* `RC_pval_ERA5-based QRA frequency_GISTEMP.nc` &rarr; Corresponding p-values for the above regression.
+* `RC_slope_GISS-based QRA fingerprint_GISTEMP.nc` &rarr; Regression slope of GISS-based QRA fingerprints against GISTEMP anomalies.
+* `RC_pval_GISS-based QRA fingerprint_GISTEMP.nc` &rarr; Corresponding p-values for the above regression.
+* `WB_Land_10m.shp` &rarr; World Bank official boundary shapefile (downloaded from https://datacatalog.worldbank.org/search/dataset/0038272).
 
 The following scripts are used to reproduce the figures in the paper:
 * `Fig_1.ipynb`
