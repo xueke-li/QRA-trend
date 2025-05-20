@@ -1,11 +1,13 @@
 Planetary Wave Resonance 
 ==============================================
-Repository including the code needed to reproduce the results present in <a href="https://www.pnas.org/doi/10.1073/pnas.2504482122">Li et al., Increased frequency of planetary wave resonance events over the past half-century </a>, PNAS, Volume 122, Issue 00, 2025.
+Repository including the code needed to reproduce the results present in <a href="https://www.pnas.org/doi/10.1073/pnas.2504482122">Li et al., Increased frequency of planetary wave resonance events over the past half-century</a>, PNAS, Volume 122, Issue 00, 2025.
 
 Related Publication
 -------------------
 X. Li, M. E. Mann, M. F. Wehner, S. Christiansen,  Increased frequency of planetary wave resonance events over the past half-century, Proc. Natl. Acad. Sci. U.S.A. 122 (00) e2413503122, <a href="https://doi.org/10.1073/pnas.2504482122">https://doi.org/10.1073/pnas.2504482122</a> (2025).
+
 M. E. Mann, S. Rahmstorf, K. Kornhuber, B. A. Steinman, S. K. Miller, S. Petri, D. Coumou, Projected changes in persistent extreme summer weather events: The role of quasi-resonant amplification. Sci. Adv. 4(10) eaat3272, <a href="https://doi.org/10.1126/sciadv.aat3272">https://doi.org/10.1126/sciadv.aat3272</a> (2018).
+
 M. E. Mann, S. Rahmstorf, K. Kornhuber, B. A. Steinman, S. K. Miller, D. Coumou, Influence of anthropogenic climate change on planetary wave resonance and extreme weather events. Sci Rep 7(1), 45242, <a href="https://doi.org/10.1038/srep45242">https://doi.org/10.1038/srep45242</a> (2017). 
 
 
