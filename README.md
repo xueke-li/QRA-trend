@@ -2,7 +2,7 @@ Planetary Wave Resonance
 ==============================================
 This repository contains the data and code necessary to reproduce the results presented in: <a href="https://www.pnas.org/doi/10.1073/pnas.2504482122">Li et al. (2025), Increased frequency of planetary wave resonance events over the past half-century</a>, Proceedings of the National Academy of Sciences, 122(00), e2413503122.
 
-Related Publication
+Related publications
 -------------------
 Li, X., M. E. Mann, M. F. Wehner, and S. Christiansen (2025),  Increased frequency of planetary wave resonance events over the past half-century, Proceedings of the National Academy of Sciences 122 (00) e2413503122, <a href="https://doi.org/10.1073/pnas.2504482122">https://doi.org/10.1073/pnas.2504482122</a>.
 
