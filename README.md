@@ -1,10 +1,10 @@
 Planetary Wave Resonance 
 ==============================================
-This repository contains the data and code necessary to reproduce the results presented in: <a href="https://www.pnas.org/doi/10.1073/pnas.2504482122">Li et al. (2025), Increased frequency of planetary wave resonance events over the past half-century</a>, Proceedings of the National Academy of Sciences, 122(00), e2413503122.
+This repository contains the data and code necessary to reproduce the results presented in: <a href="https://www.pnas.org/doi/10.1073/pnas.2504482122">Li et al. (2025), Increased frequency of planetary wave resonance events over the past half-century</a>, Proceedings of the National Academy of Sciences, 122(25), e2504482122.
 
 Related publications
 -------------------
-Li, X., M. E. Mann, M. F. Wehner, and S. Christiansen (2025),  Increased frequency of planetary wave resonance events over the past half-century, Proceedings of the National Academy of Sciences 122 (00) e2413503122, <a href="https://doi.org/10.1073/pnas.2504482122">https://doi.org/10.1073/pnas.2504482122</a>.
+Li, X., M. E. Mann, M. F. Wehner, and S. Christiansen (2025),  Increased frequency of planetary wave resonance events over the past half-century, Proceedings of the National Academy of Sciences 122 (25) e2504482122, <a href="https://doi.org/10.1073/pnas.2504482122">https://doi.org/10.1073/pnas.2504482122</a>.
 
 Li, X., M. E. Mann, M. F. Wehner, S. Rahmstorf, S. Petri, S. Christiansen, and J. Carrillo (2024), Role of atmospheric resonance and land–atmosphere feedbacks as a precursor to the June 2021 Pacific Northwest Heat Dome event, Proceedings of the National Academy of Sciences, 121(4), e2315330121, <a href="https://www.pnas.org/doi/10.1073/pnas.2315330121">https://www.pnas.org/doi/10.1073/pnas.2315330121</a>.
 
